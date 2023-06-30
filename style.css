@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan',sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+}
+main{
+    display: flex;
+    margin: auto;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    
+}
+.informations{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.info-products{
+    width: 24rem;
+}
+.info-products h1{
+width: 10rem;
+color: hsl(300, 43%, 22%);
+margin-bottom: 1.5rem;
+font-size: 1.9rem;
+}
+.info-products p{
+    color: hsl(303, 10%, 53%);
+    font-size: 13px;
+}
+.ratings{
+    display: flex;
+    flex-direction: column;
+}
+.ratings p{
+    margin-left: .5rem;
+}
+.rating-detail1{
+    display: flex;
+    padding: 1rem;
+    width: 21rem;
+    color: hsl(300, 43%, 22%);
+    background-color:hsl(300, 24%, 96%) ;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.rating-detail2{
+    display: flex;
+    padding: 1rem;
+    width: 21rem;
+    color: hsl(300, 43%, 22%);
+    background-color:hsl(300, 24%, 96%) ;
+    margin-top: 10px;
+    border-radius: 5px;  
+    margin-left: 1.5rem;
+    font-size: 13px;
+    font-weight: bold;
+}
+.rating-detail3{
+    display: flex;
+    padding: 1rem;
+    width: 21rem;
+    color: hsl(300, 43%, 22%);
+    background-color:hsl(300, 24%, 96%) ;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 3rem;
+    font-size: 13px;
+    font-weight: bold;
+}
+.user-information{
+    display: flex;
+    margin: auto;
+}
+.user-description1{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(300, 43%, 22%);
+    height: 10rem;
+    width: 16rem;
+    border-radius:.5rem;
+    color: hsl(0, 0%, 100%);
+    margin-right: 2rem;
+}
+.user-description1 p{
+   margin-left: 1rem;
+   margin-right: 1rem;
+   font-size: 13px;
+}
+.user-description2{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(300, 43%, 22%);
+    height: 10rem;
+    width: 16rem;
+    border-radius:.5rem;
+    color: hsl(0, 0%, 100%);
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+.user-description2 p{
+   margin-left: 1rem;
+   margin-right: 1rem;
+   font-size: 13px;
+}
+.user-description3{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(300, 43%, 22%);
+    height: 10rem;
+    width: 16rem;
+    border-radius:.5rem;
+    color: hsl(0, 0%, 100%);
+    margin-right: 2rem;
+    margin-top: 3rem;
+}
+.user-description3 p{
+   margin-left: 1rem;
+   margin-right: 1rem;
+   font-size: 13px;
+}
+.user{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 12px;
+    
+}
+.status :nth-child(1){
+    color: hsl(333, 80%, 67%);
+}
+.user-profile1{
+height: 2rem;
+width: 2rem;
+background-image: url(images/image-colton.jpg);
+background-size: cover;
+border-radius: 100%;
+margin-left: 1rem;
+}
+.user-profile2{
+height: 2rem;
+width: 2rem;
+background-image: url(images/image-irene.jpg);
+background-size: cover;
+border-radius: 100%;
+margin-left: 1rem;
+}
+.user-profile3{
+height: 2rem;
+width: 2rem;
+background-image: url(images/image-anne.jpg);
+background-size: cover;
+border-radius: 100%;
+margin-left: 1rem;
+}
+@media screen and (max-width:375px) {
+    .informations{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .info-products{
+        display: flex;
+        margin: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-products p{
+        width: 15rem;
+    }
+    .ratings{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .rating-detail1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rating-detail2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .rating-detail3{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .user-information{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .user-description2{
+        margin-top: 2rem;
+    }
+    .user-description3{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
